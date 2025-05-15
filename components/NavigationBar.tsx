@@ -77,13 +77,13 @@ const NavigationBar = ({ onSearch }: NavigationBarProps) => {
               className="pr-12 rounded-full border border-input bg-background shadow-sm focus-visible:ring-2 focus-visible:ring-ring transition-all"
             />
             <Button
-  type="submit"
-  size="sm"
-  className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full px-3 py-1 h-7 text-xs bg-blue-600 text-white hover:bg-blue-700 transition"
->
-  <Search className="h-4 w-4 mr-1" />
-  Search
-</Button>
+              type="submit"
+              size="sm"
+              className="absolute right-1.5 top-1/2 -translate-y-1/2 rounded-full px-3 py-1 h-7 text-xs bg-blue-600 text-white hover:bg-blue-700 transition"
+            >
+              <Search className="h-4 w-4 mr-1" />
+              Search
+            </Button>
 
           </form>
         </div>
@@ -121,7 +121,7 @@ const NavigationBar = ({ onSearch }: NavigationBarProps) => {
                   <span className="text-sm hidden sm:inline">{user.name}</span>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-56">
+              <DropdownMenuContent align="end" className="w-72">
                 <DropdownMenuLabel className="font-normal">
                   <div className="flex items-center gap-2">
                     <Avatar className="h-8 w-8">
